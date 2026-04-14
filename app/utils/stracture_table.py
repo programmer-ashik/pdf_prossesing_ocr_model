@@ -1,9 +1,7 @@
 def structure_dynamic_table(raw_table):
     if not raw_table or len(raw_table) < 2:
         return []
-    
-    # ১. হেডার ক্লিন করা (প্রথম রো থেকে হেডার নেওয়া)
-    # অনেক সময় হেডারে None থাকে, সেগুলো আমরা 'Column_index' দিয়ে রিপ্লেস করব
+
     headers = []
     for i, h in enumerate(raw_table[0]):
         header_text = str(h).replace("\n", " ").strip() if h else f"col_{i}"
