@@ -1,0 +1,20 @@
+# Web Framework & Server
+fastapi
+uvicorn
+python-multipart
+
+# Configuration & Security
+pydantic-settings
+python-dotenv
+
+# Database & ORM
+sqlmodel
+psycopg[binary]
+
+# Document AI & OCR (Resource Friendly)
+pdfplumber
+paddlepaddle
+paddleocr
+
+# Data Processing
+pandas
